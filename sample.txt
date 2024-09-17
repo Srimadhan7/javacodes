@@ -1,0 +1,27 @@
+---add two numbers in java code with using Scanner to get value from the user---
+\\
+import java.io.*;
+import java.util.*;
+
+class add
+{
+
+  public static void main(String []args)
+   {
+
+
+     System.out.println(" enter two numbers ");
+     Scanner s=new Scanner(System.in);
+
+    int a=s.nextInt();
+    int b=s.nextInt();
+
+    int c=a+b;
+
+      System.out.println(" result is " +c);
+
+   }
+
+}
+
+--------------
