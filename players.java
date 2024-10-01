@@ -28,9 +28,9 @@ class players
 
  public static void main(String []args)
   {
-    players obj=new matches();
-    matches.NoOfPlayers();
-    matches.NoOfMatches();
+    teams m1=new matches();
+    m1.NoOfPlayers();
+    m1.NoOfMatches();
 
   }
 }
